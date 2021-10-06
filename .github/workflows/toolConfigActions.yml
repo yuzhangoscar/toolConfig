@@ -1,0 +1,7 @@
+name: toolConfigActions
+on: [workflow_dispatch]
+jobs: 
+  sayHello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls -a
